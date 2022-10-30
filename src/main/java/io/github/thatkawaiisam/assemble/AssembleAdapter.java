@@ -6,7 +6,7 @@ import org.bukkit.entity.Player;
 public interface AssembleAdapter {
 
 	/**
-	 * Get's the scoreboard title.
+	 * Gets the scoreboard title.
 	 *
 	 * @param player who's title is being displayed.
 	 * @return title.
@@ -14,7 +14,7 @@ public interface AssembleAdapter {
 	String getTitle(Player player);
 
 	/**
-	 * Get's the scoreboard lines.
+	 * Gets the scoreboard lines.
 	 *
 	 * @param player who's lines are being displayed.
 	 * @return lines.
