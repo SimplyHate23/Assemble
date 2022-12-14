@@ -4,8 +4,9 @@ import lombok.Getter;
 
 @Getter
 public enum AssembleStyle {
+	//Updating to the Latest server names!
 
-	KOHI(true, 15), VIPER(true, -1), MODERN(false, 1), CUSTOM(false, 0);
+	KOHI(true, 15), VIPER(true, -1), COBRA(false, 1), CUSTOM(false, 0);
 
 	private boolean descending;
 	private int startNumber;
